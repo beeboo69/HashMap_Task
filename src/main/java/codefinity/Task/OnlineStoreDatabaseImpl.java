@@ -3,6 +3,7 @@ package codefinity.Task;
 import codefinity.model.Customer;
 import codefinity.model.Product;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -122,5 +123,17 @@ public class OnlineStoreDatabaseImpl implements OnlineStoreDatabase {
             + customer.getAddress());
         }
 
+    }
+
+    @Override
+    public void searchProductByName(String productName) {
+        System.out.println("Searching for: " + productName);
+        for(Product product : products.values()) {
+            if (product.getName().equalsIgnoreCase(productName)) {
+                System.out.println("Product found! ID: " + product.getId() + " | Name: " + product.getName() + " | Price: $" + product.getPrice() + " | Quantity: " + product.getQuantity());
+                return;
+            }
+        }
+        System.out.println("Product not found.");
     }
 }

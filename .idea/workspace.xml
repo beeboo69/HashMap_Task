@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0f0caa-0f95-4d61-89f4-9afed5d03156" name="Changes" comment="added README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +29,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "beeboo69"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/beeboo69/HashMap_Task.git",
+    "accountId": "1c4926fd-13f2-4357-a1a5-4af90c4a7361"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1,
@@ -50,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "JUnit.Run Tests.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -74,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Run Tests">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codefinity.Main" />
       <module name="HashMap" />
@@ -117,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701267398700</updated>
       <workItem from="1701267400102" duration="2008000" />
-      <workItem from="1775755451166" duration="4133000" />
+      <workItem from="1775755451166" duration="6550000" />
     </task>
     <task id="LOCAL-00001" summary="Added task">
       <created>1701268011201</created>
@@ -140,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701271089225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added README.md">
+      <option name="closed" value="true" />
+      <created>1775759680550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775759680551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +176,7 @@
     <MESSAGE value="Added task" />
     <MESSAGE value="Updated OnlineStoreDatabaseImpl.java, added test cases into the main class, added unit tests into the OnlineStoreDatabaseImplTest.java" />
     <MESSAGE value="added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README.md" />
+    <MESSAGE value="added README.md&#10;final version tests passed except for spacing difference in prints" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README.md&#10;final version tests passed except for spacing difference in prints" />
   </component>
 </project>

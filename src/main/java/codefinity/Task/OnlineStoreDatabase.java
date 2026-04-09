@@ -21,4 +21,6 @@ public interface OnlineStoreDatabase {
     void displayAllProducts();
 
     void displayAllCustomers();
+
+    void searchProductByName(String productName);
 }
