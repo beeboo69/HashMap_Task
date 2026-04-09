@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f0caa-0f95-4d61-89f4-9afed5d03156" name="Changes" comment="added README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" afterDir="false" />
+    <list default="true" id="6e0f0caa-0f95-4d61-89f4-9afed5d03156" name="Changes" comment="added searchbyProductName">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701267398700</updated>
       <workItem from="1701267400102" duration="2008000" />
-      <workItem from="1775755451166" duration="6550000" />
+      <workItem from="1775755451166" duration="6932000" />
     </task>
     <task id="LOCAL-00001" summary="Added task">
       <created>1701268011201</created>
@@ -165,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775759680551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added searchbyProductName">
+      <option name="closed" value="true" />
+      <created>1775762962497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762962497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +182,7 @@
     <MESSAGE value="Updated OnlineStoreDatabaseImpl.java, added test cases into the main class, added unit tests into the OnlineStoreDatabaseImplTest.java" />
     <MESSAGE value="added README.md" />
     <MESSAGE value="added README.md&#10;final version tests passed except for spacing difference in prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="added README.md&#10;final version tests passed except for spacing difference in prints" />
+    <MESSAGE value="added searchbyProductName" />
+    <option name="LAST_COMMIT_MESSAGE" value="added searchbyProductName" />
   </component>
 </project>
